@@ -8,5 +8,9 @@ class PalindromeTwoTest {
 
     @Test
     void isPalindrome() {
+        PalindromeTwo palindromeTwo = new PalindromeTwo();
+
+        // SPECIFICATION TESTING
+
     }
 }

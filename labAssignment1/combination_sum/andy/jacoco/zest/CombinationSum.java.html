@@ -20,12 +20,13 @@ import java.util.List;
 <span class="fc bfc" id="L20" title="All 2 branches covered.">        if (target &gt; 0) {</span>
 <span class="fc bfc" id="L21" title="All 4 branches covered.">            for (int i = start; i &lt; candidates.length &amp;&amp; target &gt;= candidates[i]; i++) {</span>
 <span class="fc" id="L22">                cur.add(candidates[i]);</span>
-<span class="fc" id="L23">                getResult(result, cur, candidates, target - candidates[i], i);</span>
-<span class="fc" id="L24">                cur.remove(cur.size() - 1);</span>
+<span class="fc" id="L23">                System.out.println(cur);</span>
+<span class="fc" id="L24">                getResult(result, cur, candidates, target - candidates[i], i);</span>
+<span class="fc" id="L25">                cur.remove(cur.size() - 1);</span>
             }
-<span class="pc bpc" id="L26" title="1 of 2 branches missed.">        } else if (target == 0) {</span>
-<span class="fc" id="L27">            result.add(new ArrayList&lt;Integer&gt;(cur));</span>
+<span class="pc bpc" id="L27" title="1 of 2 branches missed.">        } else if (target == 0) {</span>
+<span class="fc" id="L28">            result.add(new ArrayList&lt;Integer&gt;(cur));</span>
         }
-<span class="fc" id="L29">    }</span>
+<span class="fc" id="L30">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

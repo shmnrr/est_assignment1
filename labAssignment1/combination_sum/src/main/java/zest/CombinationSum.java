@@ -20,6 +20,7 @@ public class CombinationSum {
         if (target > 0) {
             for (int i = start; i < candidates.length && target >= candidates[i]; i++) {
                 cur.add(candidates[i]);
+                System.out.println(cur);
                 getResult(result, cur, candidates, target - candidates[i], i);
                 cur.remove(cur.size() - 1);
             }
