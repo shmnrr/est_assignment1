@@ -1,0 +1,31 @@
+Andy v0.27-0ddc302 (2022-02-03T18:20:49+0100)
+
+--- Compilation
+Success
+
+--- JUnit execution
+1/1 passed
+
+--- JaCoCo coverage
+Line coverage: 14/14
+Instruction coverage: 83/83
+Branch coverage: 20/20
+
+--- Mutation testing
+28/37 killed
+
+--- Code checks
+No code checks to be assessed
+
+--- Meta tests
+0/0 passed
+
+--- Assessment
+Branch coverage: 20/20 (overall weight=0.25)
+Mutation coverage: 28/37 (overall weight=0.25)
+Code checks: 0/0 (overall weight=0.25)
+Meta tests: 0/0 (overall weight=0.25)
+
+Final grade: 94/100
+
+Andy is running in PRACTICE mode and took 4.1 seconds to assess your solution.

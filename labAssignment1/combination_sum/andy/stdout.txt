@@ -4,30 +4,15 @@ Andy v0.27-0ddc302 (2022-02-03T18:20:49+0100)
 Success
 
 --- JUnit execution
-1/1 passed
-
---- Console output
-[2]
-[2, 2]
-[2, 2, 2]
-[2, 2, 3]
-[2, 3]
-[3]
-[3, 3]
-[6]
-[7]
-[6]
-[7]
-
+3/3 passed
 
 --- JaCoCo coverage
-Line coverage: 14/14
-Instruction coverage: 74/74
-Branch coverage: 7/8
-Partially covered lines: 27
+Line coverage: 13/13
+Instruction coverage: 71/71
+Branch coverage: 8/8
 
 --- Mutation testing
-13/15 killed
+14/14 killed
 
 --- Code checks
 No code checks to be assessed
@@ -36,11 +21,28 @@ No code checks to be assessed
 0/0 passed
 
 --- Assessment
-Branch coverage: 7/8 (overall weight=0.25)
-Mutation coverage: 13/15 (overall weight=0.25)
+Branch coverage: 8/8 (overall weight=0.25)
+Mutation coverage: 14/14 (overall weight=0.25)
 Code checks: 0/0 (overall weight=0.25)
 Meta tests: 0/0 (overall weight=0.25)
 
-Final grade: 94/100
+Final grade: 100/100
 
-Andy is running in PRACTICE mode and took 4.4 seconds to assess your solution.
+        Super congrats!
+
+                  ,,,,,..,*,
+            /(&/****,,,,,,/&/*,
+          /(&%/////**,,....*&/*,
+          #&&//////**,,,..../&,,
+          *&#////*/**,,,....,/,.
+           /((#%%#//***/(/*..*(
+          %(#((%#%@(,*/(#*....,.
+           ((///(((/...,,,.. .,.
+            ((//(((,./,*,.. .
+             (((###((*,,*...
+              %##((**,.,,*,,
+              ,(%%%((//**.. %*
+             ,%((((/**,,,,*%,
+   ,(/#//%(#(#*%((((///(#% /*.///,**,
+
+Andy is running in PRACTICE mode and took 4.3 seconds to assess your solution.
